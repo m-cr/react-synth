@@ -1,0 +1,20 @@
+{
+  "name": "react-synth",
+  "version": "1.0.0",
+  "description": "react synth",
+  "main": "server.ts",
+  "author": "mike crowley",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start-dev": "npx ts-node src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
